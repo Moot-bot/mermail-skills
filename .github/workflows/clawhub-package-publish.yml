@@ -65,7 +65,7 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: openclaw/clawhub/.github/workflows/package-publish.yml@ecf09b868a986751137f4272283f84967a16c765 # v0.12.0
+    uses: openclaw/clawhub/.github/workflows/package-publish.yml@dfb087d90079c84f74ed0c5de27c302696d42178 # v0.27.0
     with:
       dry_run: true
       owner: mermail
@@ -76,7 +76,7 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: openclaw/clawhub/.github/workflows/package-publish.yml@ecf09b868a986751137f4272283f84967a16c765 # v0.12.0
+    uses: openclaw/clawhub/.github/workflows/package-publish.yml@dfb087d90079c84f74ed0c5de27c302696d42178 # v0.27.0
     with:
       dry_run: false
       owner: mermail
